@@ -189,12 +189,6 @@ class itemsPage_Controller extends Page_Controller {
 		
 		return $this->redirectBack();
 	}	
-/*	
-	public function login() {
-		// Redirect back to the page of whence it came
-		return $this->redirect($this->owner->request->getHeader('Referer'));
-	}
-*/
 	
 	function IsUserLoggedIn($member = null) {
 		if(Member::currentUser()) {
