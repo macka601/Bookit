@@ -1,0 +1,237 @@
+.ItemWrapper {
+	width: 650px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.ItemTitle{
+	height: 25px;
+	line-height: 25px;
+	position: relative;	
+	border-bottom: 1pt solid black;
+	margin-bottom: 5px;
+}
+
+.ItemMiddle {
+	width: 100%;
+	position: relative;
+}
+
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+
+.ItemPhoto{
+	float: left;
+	width: 155px;
+	margin-left: -100%;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.ItemDescription {
+	padding: 0 0 0 165px;
+	width: 60%;
+}
+	.ItemDescription p {
+		margin-top: 2px;
+	}
+	
+.ItemBook{	
+	/*line-height: 300%;	*/
+	margin-top: 2px;
+	float:right;
+	margin-left: -100%;	
+}
+
+.ItemsPageContainer {
+	margin: 5px;
+	/* border: 1px solid yellow; */
+}
+
+/* ItemsPage Styling */
+.ItemsPage_ItemTitle {
+	margin-bottom: 5px;
+	margin-right: 180px;
+	border-bottom: 1px solid black;	
+}
+
+.ItemsPage_ItemDescription {	
+	margin-right: 5px;
+	margin-bottom: 5px;	
+}
+
+.ItemsPage_ItemPhoto {	
+	float: right;	
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.ItemsPage_MaximumBookingTime {
+	float: left;
+}
+	.ItemsPage_MaximumBookingTime p {
+		color: firebrick;
+	}
+	
+#Form_bookItemForm {	
+	
+}	
+
+	#Form_bookItemForm  fieldset {
+		margin: 0;
+		padding: .35em 0 .75em;
+		border: 0;
+		min-width: 0;
+		display: inline; 
+		float:left;
+	}
+	
+	#Form_bookItemForm .middleColumn{
+		display: inline;	
+		clear: none;		
+		width: auto;
+	}
+
+	#Form_bookItemForm #Form_bookItemForm_from, #Form_bookItemForm_to{
+		width: auto; 
+		margin-right: 10px;
+		margin-left: 7px;
+	}
+
+	#Form_bookItemForm #to, #Form_bookItemForm #from {		
+		display: inline;		
+	}
+
+#bookItemForm .Actions {	
+	display: inline;
+	float: right;
+}
+	#bookItemForm .action {
+		font-size: 100%;
+		padding: .5em 1em;
+		color: #444;
+		color: rgba(0,0,0,.8);
+		border: 1px solid #999;
+		border: 0 rgba(0,0,0,0);
+		background-color: #E6E6E6;
+		text-decoration: none;
+		border-radius: 2px;
+	}
+	
+	#bookItemForm form input.action {
+		background-color: #0078e7;
+		color: #fff;
+	}
+	
+	#bookItemForm form input.action:hover {
+		background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+	}
+	
+	#Form_bookItemForm_error {
+		color: red;
+		font-weight: bold;
+	}
+		
+.Table_userHistory {
+	border-collapse:collapse;
+	border-spacing:0;
+	width: 99%;
+	display: table;
+	text-align: center;
+}
+
+	.Table_userHistory_row {
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		padding:10px 5px;
+		border-style:solid;
+		border-width:1px;
+		overflow:hidden;
+		word-break:normal;
+		display:table-row;
+	}
+	
+	.Table_userHistory_row_odd {
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		padding:10px 5px;
+		border-style:solid;
+		border-width:1px;
+		overflow:hidden;
+		word-break:normal;
+		display:table-row;
+		background: rgba(211, 211, 211, 0.4);
+	}
+	
+	.Table_userHistory_column {
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		font-weight:normal;
+		padding:10px 5px;
+		border-style:solid;
+		border-width:1px;
+		overflow:hidden;
+		word-break:normal;
+		display:table-cell;
+	}
+
+.Message {
+	clear: both;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	width: 100%;
+	
+}
+	p.message {
+		padding:10px;
+		margin: 0px 0px 0;
+		border: 1px solid #FFF;
+		text-align: center;
+	}
+	 
+	p#SuccessMessage {
+		color:#3E933A;
+		background:#E2F7D8;
+		border-color:#9FDE9C;
+	}
+	 
+	p#NoticeMessage {
+		color:#CCBD00;
+		background:#FFF8D7;
+		border-color:#F1E988;
+	}
+	 
+	p#ErrorMessage, .loginForm .message.bad {
+		color: #DA1D1D;
+		background: #FFDFDF;
+		border-color: #FFBBBB;
+	}
+
+.ui-datepicker-unselectable.ui-state-disabled.undefined .ui-state-default {
+	background: rgba(255, 0, 0, 0.85) !important;
+}
+
+.undefined .ui-state-default, .ui-datepicker-week-end .ui-state-default {
+	background: forestgreen !important;
+	color: #000 !important;
+}
+.loginForm {
+	float:left;
+	padding-left: 5px;
+	color: #DA1D1D;
+	border: 2px solid #FFDFDF;
+	width: 98%;
+}
+	.loginForm .message.bad {
+		background: #FFDFDF;
+		margin-right: 5px;
+	}
